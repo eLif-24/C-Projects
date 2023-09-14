@@ -4,7 +4,7 @@
 int main()
 {
     int i,a,b,gcd,lcm;
-    printf("Enter the numbers");
+    printf("Enter the numbers a & b");
     scanf("%d%d",&a,&b);
     for(i=1;i<=a && i<=b;i++)
     {

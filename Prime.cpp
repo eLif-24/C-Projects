@@ -21,12 +21,12 @@ int main()
             printf("%d \n",i);
         a=0;        
     }
-    /*if(a==0)
+    if(a==0)
     {
         printf("It is a prime number"); 
     }
     else
     {
         printf("It is not a prime number");
-    }*/
+    }
 }
