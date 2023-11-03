@@ -3,8 +3,9 @@
 int main()
 {
     int i,n,a[100],sum=0;
-    printf("Enter the no of elements");
+    printf("Enter the no of elements\n");
     scanf("%i",&n);
+    printf("Enter the elements");
     for(i=0;i<n;i++)
     {
         scanf("%i",&a[i]);
