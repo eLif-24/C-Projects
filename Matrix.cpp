@@ -22,7 +22,7 @@ int main(){
         j=0;
         while(j<col)
         {
-            printf("%d\t",a[i][j]);
+            printf("%d  ",a[i][j]);
             j++;
         }
         printf("\n");

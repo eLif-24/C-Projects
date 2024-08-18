@@ -24,16 +24,19 @@ int main(){
         }while(j<n);
         i++;
     }while(i<m);
+    printf("The summation is\n");
     i=0;
     while(i<m){
         j=0;
         while(j<n){
             c[i][j]=a[i][j]+b[i][j];
+            printf("%d  ",c[i][j]);
             j++;
         }
+        printf("\n");
         i++;
     }
-    i=0;
+    /*i=0;
     do{
         j=0;
         do{
@@ -42,6 +45,6 @@ int main(){
         }while(j<n);        
         printf("\n");
         i++;       
-    }while(i<m);
+    }while(i<m);*/
 
 }

@@ -23,7 +23,8 @@ int main(){
             do{
                 if(i>=j){
                 printf("%d  ",a[i][j]);}
-                j++;}while(j<col);
+                j++;
+            }while(j<col);
             printf("\n");            
             i++;}while(i<row);
         printf("Upper Triangle\n");

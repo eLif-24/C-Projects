@@ -4,7 +4,7 @@ int main(){
     int a[100][100],b[100][100],c[100][100],r1,r2,c1,c2,i,j,sum=0,k,n;
     printf("Enter the no of row and col of A");
     scanf("%d%d",&r1,&c1);
-    printf("Enter the no of row and col of A");
+    printf("Enter the no of row and col of B");
     scanf("%d%d",&r2,&c2);
     if(c1!=r2)
         printf("Matrix multiplication not possible");
@@ -37,11 +37,12 @@ int main(){
                 {
                     n=a[i][k]*b[k][j];
                     sum=sum+n;
-                    c[i][j]=sum;
+                    c[i][j]=sum;                                        
                 }
-                sum=0;
+                sum=0;                
             }
         }
+        printf("The multiplication is \n");
         i=0;
         do{
             j=0;

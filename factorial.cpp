@@ -1,17 +1,18 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
-{
-    int A,B,C=1;
+int fact(int);
+int main(){
+    int i,n;
     printf("Enter the number");
-    scanf("%d",&A);
-    B=1;
-    do
-    {
-        C=B*C;
-        B++;
-    }
-    while(B<=A);
+    scanf("%i",&n);
+    i=fact(n);
+    printf("%d",i);
     
-    printf("The Factorial is %d",C);
+}
+int fact(int n){
+    if(n==0){
+        return 1;
+    }
+    else    
+        return n*fact(n-1);
 }
